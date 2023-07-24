@@ -1,0 +1,94 @@
+.App {
+  height: 100vh;
+  background: #11151c;
+  font-family: "ABeeZee", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controls {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.controls > h4 {
+  font-weight: 600;
+  color: #ffa62b;
+  margin-bottom: -10px;
+}
+
+.controls > p {
+  color: #1098f7;
+  align-self: flex-start;
+  margin-bottom: 10px;
+}
+
+.controls > label,
+.controls > div > label {
+  font-size: 14px;
+  color: #ffa62b;
+}
+
+.controls > select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.details {
+  background-color: #f1f1f1;
+  padding-inline: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.output {
+  height: 100vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #f1f1f1;
+  color: #00008b;
+  padding: 10px;
+  width: 40vw;
+  text-align: justify;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+  .controls {
+    width: 80vw;
+  }
+
+  .output {
+    width: 80vw;
+  }
+
+  .box {
+    width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .controls {
+    width: 60vw;
+  }
+
+  .output {
+    width: 60vw;
+  }
+
+  .box {
+    width: 60vw;
+  }
+}

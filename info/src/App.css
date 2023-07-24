@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000bd;
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-center {
+  background: #000000ce;
+  color: #ffffffee;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.info {
+  background: #000;
+  padding-inline: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 200px;
+}
+
+.information {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information > h2 {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.information > h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.information > p {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.information > a {
+  text-decoration: none;
+  font-size: 14px;
+  width: 150px;
+  text-align: center;
+}
+
+.email {
+  color: #000;
+  background-color: #fff;
+  padding-block: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.linkedin {
+  color: #fff;
+  background-color: #04a2ad;
+  padding-block: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.heading {
+  padding: 15px;
+}
+
+.title {
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: 24px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.footer {
+  background: #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+  padding-block: 10px;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #ffffffaa;
+  font-size: 24px;
+  transition: .5s ease;
+}
+
+.footer > a:hover {
+  transform: scale(1.4);
+  color: #fff;
+}
