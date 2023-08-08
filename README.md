@@ -16,6 +16,9 @@ This repository consists of several small, standalone projects developed using [
 - shadow-generator
 - multiple-columns-generator
 - copy-code
+- overlay-generator
+- card-carousel
+- icon-hover
 
 ## Badges :label:
 
