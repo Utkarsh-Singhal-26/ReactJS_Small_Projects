@@ -19,6 +19,8 @@ This repository consists of several small, standalone projects developed using [
 - overlay-generator
 - card-carousel
 - icon-hover
+- reviews
+- accordion
 
 ## Badges :label:
 
