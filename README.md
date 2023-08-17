@@ -17,8 +17,6 @@ This repository consists of several small, standalone projects developed using [
 - multiple-columns-generator
 - copy-code
 - overlay-generator
-- card-carousel
-- icon-hover
 - reviews
 - accordion
 
